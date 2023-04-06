@@ -1,3 +1,4 @@
+
 setInterval(()=>{
 	d = new Date();
 	h = d.getHours();
@@ -13,6 +14,7 @@ setInterval(()=>{
 	minute.style.transform = `rotate(${minutes_rotation}deg)`;
 	second.style.transform = `rotate(${seconds_rotation}deg)`;
 },1000)
+d = new Date();
 //where d is date
 let day = d.getDay();
 let date = d.getDate();
