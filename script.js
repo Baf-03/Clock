@@ -4,16 +4,16 @@ setInterval(()=>{
 	h = d.getHours();
 	m = d.getMinutes();
 	s = d.getSeconds();
-
+	ms = d.getMilliseconds();
 	//--------------------------------------rotation-of-hands-----------------------------
 	hour_rotation = 30*h + m/2;
 	minutes_rotation = 6*m;
-	seconds_rotation = 6*s
+	seconds_rotation = 6 * s + 0.006 * ms;
 
 	hour.style.transform = `rotate(${hour_rotation}deg)`;
 	minute.style.transform = `rotate(${minutes_rotation}deg)`;
 	second.style.transform = `rotate(${seconds_rotation}deg)`;
-},1000)
+},1000);
 let d = new Date();
 //where d is date
 let day = d.getDay();
