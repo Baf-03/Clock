@@ -13,7 +13,7 @@ setInterval(()=>{
 	hour.style.transform = `rotate(${hour_rotation}deg)`;
 	minute.style.transform = `rotate(${minutes_rotation}deg)`;
 	second.style.transform = `rotate(${seconds_rotation}deg)`;
-},1000);
+},1);
 let d = new Date();
 //where d is date
 let day = d.getDay();
