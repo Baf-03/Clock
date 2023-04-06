@@ -26,6 +26,18 @@ body{
 	transform-origin: bottom;/*yae clock k hands ko end sae move krwanae k liyae use kia hae wrna wo center sae move horahe thi*/	
 
 }
+#spot{
+	position: absolute;
+	width:5%;
+	top:47%;
+	height: 5%;
+	left:47.5%;
+	opacity: 1.5;
+	background:  #C1BCBA;
+	border-radius: 50%	;
+
+
+}
 
 #hour{
 	width:1.8%;
