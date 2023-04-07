@@ -1,5 +1,6 @@
 body{
 	background: #091921;
+
 }
 
 
@@ -26,19 +27,19 @@ body{
 	transform-origin: bottom;/*yae clock k hands ko end sae move krwanae k liyae use kia hae wrna wo center sae move horahe thi*/	
 
 }
+
 #spot{
 	position: absolute;
 	width:5%;
 	top:47%;
 	height: 5%;
 	left:47.5%;
-	opacity: 1.5;
+	opacity: 2;
 	background:  red;
 	border-radius: 50%	;
 
 
 }
-
 #hour{
 	width:1.8%;
 	height:25%;
@@ -72,10 +73,10 @@ body{
 	height:40%;
 	top:48%;
 	left:60.25%;
-    	font-size: 1vw;
-    	position: absolute;
-    	color: #C1BCBA;
-    	z-index: 1;
+    font-size: 1vw;
+    position: absolute;
+    color: #C1BCBA;
+    z-index: 1;
 }
 
 .date {
@@ -83,30 +84,45 @@ body{
 	height:40%;
 	top:48%;
 	left:80.25%;
-    	position: absolute;
-    	font-size: 0.8vw;
-    	color: #C1BCBA;
-    	z-index: 1;
+    position: absolute;
+    font-size: 0.8vw;
+    color: #C1BCBA;
+    z-index: 1;
+}
+.imgclass1{
+	position: absolute;
+	top: 2%;
+	width: 5%;
+	height: 10%;
+	filter: brightness(500%) saturate(150%);
+
+}
+.imgclass{
+	position: absolute;
+	top: 13%;
+	width: 5%;
+	height: 10%;
+	filter: brightness(80%) saturate(50%);
 }
 
 
 /* Digital Clock */
 .display-clock {
 	width: 20%;
-    	margin: auto;
-    	color: #9c9b9b;
-    	padding-left: 5.3	%;
-    	margin-top: 5%;
-    	border: 4px solid #091921;
-    	border-radius: 5%;
-    	background-color: #091921;
-	font-size: 2.5vw;
-    	box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
-        	inset 0 -15px 15px rgba(255, 255, 255, 0.05),
-        	0 15px 15px rgba(0, 0, 0, 0.3),
-        	inset 0 15px 15px rgba(0, 0, 0, 0.3);
-    	
-    
+
+    margin: auto;
+    color: #9c9b9b;
+    padding-left: 5.3	%;
+   	margin-top: 5%;
+    border: 4px solid #091921;
+    border-radius: 5%;
+    background-color: #091921;
+    box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
+        inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+        0 15px 15px rgba(0, 0, 0, 0.3),
+        inset 0 15px 15px rgba(0, 0, 0, 0.3);
+    font-size: 2.5vw;
+    /* width: 250px; */
 }
 
 
@@ -130,24 +146,24 @@ body{
 
 .display-clock {
 	width: 30%;
-    	padding-left: 5.5%;
-    	position: fixed;
+    padding-left: 5.5%;
+    position: fixed;
   	top: 50%;
   	left: 50%;
 	transform: translate(-50%, 80%);
-   	border: 4px solid #091921;
-    	font-size: 4.5vw;
+    border: 4px solid #091921;
+    font-size: 4.5vw;
     
 }
 .present-day {
 	left:60.25%;
-    	font-size: 3vw;
+    font-size: 3vw;
 }
 
 .date {
 	left:80.25%;
-    	position: absolute;
-    	font-size: 2vw;
+    position: absolute;
+    font-size: 2vw;
     
 }  
    
