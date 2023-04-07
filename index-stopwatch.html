@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Stop_watch</title>
+	<link rel="stylesheet" type="text/css" href="style-stopwatch.css">
+</head>
+<body>
+	<div>
+		<a href="index.html" target="_self"> <div><img src="clocklogo.png" class="imgclass1"/></div></a>
+		<div><img src="stopwatch.png" class="imgclass"></div></a>
+		
+	</div>
+	<div class="container">
+		<div id="output">
+			00:00:00:00
+		</div>
+		<div class="buttons">
+			<button id="start" onclick="start_timer()">Start</button>
+			<button id="stop" onclick="stop_timer()">Stop</button>
+			<button id="reset" onclick="reset_timer()">Reset</button>
+			<button id="lap" onclick="record_lap()">Lap</button>
+		</div>
+		
+	</div>
+
+		<div id="laps">
+			
+		</div>
+
+<script src="script-stopwatch.js"></script>
+</body>
+</html>

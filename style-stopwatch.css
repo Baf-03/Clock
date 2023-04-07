@@ -1,0 +1,122 @@
+body{
+	background: #091921;
+	font-family: Comic Sans MS;
+	overflow-y: hidden;
+	
+
+}
+.container{
+	
+	height:30%;
+	width: 30%;
+	border-radius: 2px solid black;
+	box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
+        inset 0 -15px 15px rgba(255, 255, 255, 0.05),
+        0 15px 15px rgba(0, 0, 0, 0.3),
+        inset 0 15px 15px rgba(0, 0, 0, 0.3);
+    position: fixed;
+  	top: 20%;
+  	left: 50%;
+	transform: translate(-50%, -50%);
+
+	
+}
+#output
+{	
+	position: fixed;
+	top: 50%;
+  left: 50%;
+	transform: translate(-50%, -50%);
+	padding-left: 5%;
+	font-size: 2rem	;
+	color: #C1BCBA;
+}
+
+
+
+/*==========================buttons========================*/
+.buttons{
+	margin-top: 5%;
+	position: relative;
+	top: 60%;
+  	left: 50%;
+	transform: translate(-50%, -50%);
+	padding-left: 5%;
+}
+#start,#stop,#reset,#lap
+{
+	position: absolute;
+	padding: 3%;
+	background: #C1BCBA;
+	border-radius: 30% ;
+}
+#lap{
+	top: 60%;
+	left:50%;
+}
+#start{
+	top: 70%;
+	left: 20%;
+	
+}
+
+#stop{
+	top: 60%;
+  	left: 35%;
+	
+	
+}
+#reset{
+	top: 60%;
+	left:65%;
+}
+#laps{
+	position: absolute;
+	width: 40%;
+	font-size: 2.5vh;
+	background: #091921;
+	float:left;
+	height: 50vh;
+	transform: translate(-50%, -50%);
+	top: 70%;
+	left: 60%;
+	color:#C1BCBA ;
+	overflow-y: scroll;
+
+
+}
+#laps::-webkit-scrollbar{
+  background-color: transparent;
+}
+.imgclass1{
+	width: 5%;
+	height: 3%;
+	filter: brightness(80%) saturate(50%);
+	
+
+}
+.imgclass{
+	width: 5%;
+	height: 3%;
+	filter: brightness(500%) saturate(150%);
+}
+
+/*=======================================MEDIA==QUERY==========================================*/
+@media  (max-width: 960px) {
+
+.container{
+	width: 90%;
+  	top: 20%;
+	
+
+	
+}
+#laps{
+	width: 50%;
+	height: 52vh;
+	left: 60%;
+	
+
+}
+
+}
